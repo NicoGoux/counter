@@ -7,12 +7,14 @@ html {
 main {
   display: flex;
   height: 100vh;
+  min-height: 400px;
   align-items: center;
   justify-content: center;
   background-color: #255a25;
 }
 main #container {
   height: 60%;
+  min-height: 350px;
   width: 40%;
   min-width: 230px;
   max-width: 500px;
